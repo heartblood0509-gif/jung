@@ -152,6 +152,7 @@ export default function Gallery() {
             className="max-w-5xl max-h-[80vh] w-full"
             onClick={(e) => e.stopPropagation()}
           >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={images[selectedIndex].url}
               alt={images[selectedIndex].caption}

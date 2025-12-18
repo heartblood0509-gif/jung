@@ -145,7 +145,7 @@ export default function Reviews() {
 
             {/* Content */}
             <p className="text-gray-700 text-lg leading-relaxed">
-              "{reviews[currentIndex].content}"
+              &ldquo;{reviews[currentIndex].content}&rdquo;
             </p>
           </div>
 
